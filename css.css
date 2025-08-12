@@ -19,3 +19,21 @@
 .logo{
     height: 100px;
 }
+
+.tabla_datos{
+    margin: auto;
+    text-align: center;
+
+}
+
+.tabla_datos th{
+    padding: 10px;
+    border: 3px double green;
+    border-radius: 5px;
+}
+
+.tabla_datos td{
+    padding: 10px;
+    border: 3px double pink;
+    border-radius: 5px;
+}
