@@ -7,8 +7,7 @@
     align-items: center;
     height:100px;
     background-color: #691B1B;
-
-
+    padding-bottom: 100px;
 }
 .titulo{
     color:white;
@@ -20,10 +19,23 @@
     height: 100px;
 }
 
+.logo:hover {
+    animation: vibrar 0.3s linear infinite;
+}
+
+@keyframes vibrar {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+}
+
 .tabla_datos{
     margin: auto;
     text-align: center;
-
+    
 }
 
 .tabla_datos th{
@@ -36,4 +48,12 @@
     padding: 10px;
     border: 3px double pink;
     border-radius: 5px;
+}
+
+.imagen_rostro{
+    height: 100px;
+}
+
+.imagen_rostro:hover{
+    filter: grayscale(100%);
 }
