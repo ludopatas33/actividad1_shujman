@@ -6,7 +6,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    height: 140px;
+    height: 120px;
     background-color: #691B1B;
     
 }
@@ -14,11 +14,13 @@
 .titulo{
     color:white;
     font-size: 60px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding-left: 100px;    
 }
 
 .logo{
-    height: 100px;
+    height: 120px;
 }
 
 .logo:hover {
