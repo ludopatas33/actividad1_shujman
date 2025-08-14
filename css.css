@@ -1,15 +1,14 @@
-
 .fondo{
-        background-color: #691B1B;
+        background-color: whitesmoke;
 }
 
 .encabezado{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    height:100px;
+    height: 140px;
     background-color: #691B1B;
-    padding-bottom: 100px;
+    
 }
 
 .titulo{
@@ -37,21 +36,24 @@
 
 .tabla_datos{
     margin: auto;
+    margin-top: 10px;
     text-align: center;
     
 }
 
 .tabla_datos th{
+    background-color: #691B1B;
     color:white;
     padding: 10px;
-    border: 3px double green;
+    border: 3px double black;
     border-radius: 5px;    
 }
 
 .tabla_datos td{
-    color:white;
+    background-color: indianred;
+    color: white;
     padding: 10px;
-    border: 3px double pink;
+    border: 3px double black;
     border-radius: 5px;
 }
 
