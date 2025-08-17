@@ -13,7 +13,7 @@
 
 .titulo{
     color:white;
-    font-size: 60px;
+    font-size: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: auto;
     padding-left: 100px;    
@@ -46,6 +46,8 @@
 .tabla_datos th{
     background-color: #691B1B;
     color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
     padding: 10px;
     border: 3px double black;
     border-radius: 5px;    
@@ -54,6 +56,8 @@
 .tabla_datos td{
     background-color: indianred;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
     padding: 10px;
     border: 3px double black;
     border-radius: 5px;
